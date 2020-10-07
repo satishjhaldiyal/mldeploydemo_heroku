@@ -14,7 +14,7 @@ def hello():
     return "As wise as Solomon!"
 
 @app.route("/app-description")
-def hello():
+def appdesc():
     return "Description of this application is coming soon. Sit Tight !!!"
 
 @app.route('/predict',methods=['POST'])
