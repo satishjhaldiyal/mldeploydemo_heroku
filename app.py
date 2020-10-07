@@ -13,6 +13,10 @@ def home():
 def hello():
     return "As wise as Solomon!"
 
+@app.route("/app-description")
+def hello():
+    return "Description of this application is coming soon. Sit Tight !!!"
+
 @app.route('/predict',methods=['POST'])
 def predict():
     '''
