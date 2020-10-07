@@ -13,6 +13,11 @@ def home():
 def hello():
     return "As wise as Solomon!"
 
+@app.route("/hello")
+def hi():
+    return "Hi Stuart!"
+
+
 @app.route("/app-description")
 def appdesc():
     return "Description of this application is coming soon. Sit Tight !!!"
