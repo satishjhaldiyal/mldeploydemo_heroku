@@ -13,7 +13,7 @@ def home():
 def hello():
     return "As wise as Solomon!"
 
-@app.route("/hello")
+@app.route("/hi")
 def hi():
     return "Hi Stuart!"
 
