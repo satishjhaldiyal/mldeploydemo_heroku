@@ -9,6 +9,10 @@ model = pickle.load(open('model.pkl', 'rb'))
 def home():
     return render_template('index.html')
 
+@app.route('/naveeng')
+def naveeng():
+    return "Hi Naveenji!"
+
 @app.route("/hello")
 def hello():
     return "As wise as Solomon!"
